@@ -1,0 +1,59 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #c5c5c5;
+    overflow: hidden
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.card-container {
+    width: 250px;
+    background-color: #ffffff;
+    font-family: 'Open Sans';
+    border-top: 8px solid #8132a3;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container img {
+    max-width: 60%;
+    height: auto;
+    border: 5px solid #ffffff;
+    border-radius: 128px;
+    margin-bottom: 1rem;
+}
+.form-container {
+    width: 100%;
+}
+form label {
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+}
+form input {
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 0 8px 0;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+}
+form input:focus {
+    outline: 2px solid #eeeeee;
+    border-radius: 5px;
+}
